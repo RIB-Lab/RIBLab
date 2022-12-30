@@ -24,5 +24,5 @@ extra_javascript:
 nav:
     - Home: index.md
     - Studio-Kometubu: 1-Studio-Kometubu/index.md
-    - Kome-Lab: 2-Kome-Lab/index.md
+    - Kome-Lab: 2-Kome-lab/index.md
     - Minecraft: 3-Minecraft/index.md
