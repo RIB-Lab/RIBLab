@@ -1,21 +1,18 @@
-# ようこそ Studio-Kometubu-Network-Wikiへ
+# ようこそ RIBLab-Networkへ
 
 !!!Warning
-    ！！注意！！このWikiはまだ製作中です。その点に留意してご覧ください。
+    ！！注意！！このサイトはまだ製作中です。その点に留意してご覧ください。
 
-ここにはStudio-Kometubuや
-</br>
-
-Kome-Labについての情報が掲載されています
+ここにはRIBLabについての情報が掲載されています
 
 </br>
 
 ## 各種URL
 
-・[Studio-Kometubuドキュメント](./1-Studio-Kometubu)
+・[RIBLabとは？](./about)
 </br>
 
-・[Kome-Labドキュメント](./2-Kome-lab)
+・[ルール](./rules)
 </br>
 
-・[Minecraft関連ドキュメント](./3-Minecraft)
+・[参加方法](./join)
