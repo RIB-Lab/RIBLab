@@ -6,4 +6,4 @@
 
 ##### ©2023 [RIBLab](https://github.com/RIB-Lab)
 
-[Released under the MIT license](https://github.com/RIB-Lab/RIBLab-docs/blob/main/LICENSE.md)https://github.com/RIB-Lab/RIBLab-docs/blob/main/LICENSE.md)
+[Released under the MIT license](https://github.com/RIB-Lab/RIBLab-docs/blob/main/LICENSE.md)
