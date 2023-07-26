@@ -4,14 +4,16 @@ theme:
     langage: ja
     features:
     - navigation.footer
+    font:
+      text: Zen Maru Gothic
     palette:
         - scheme: default
-          primary: green
+          primary: blue
           toggle:
               icon: material/toggle-switch-off-outline
               name: ダークモードに切り替えます。
         - scheme: slate
-          primary: green
+          primary: blue
           toggle:
               icon: material/toggle-switch
               name: ライトモードに切り替えます。
