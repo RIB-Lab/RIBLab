@@ -1,10 +1,10 @@
-# wiki.kome-lab.net
+# wiki.riblab.net
 
 ## このWikiについて
 
-このwikiはStudio-Kometubu-Networkに関する情報が掲載されています。
+このwikiはRIBLab-Networkに関する情報が掲載されています。
 
-##### ©2022 [Jumala9163](https://github.com/Jumala9163) & [Kome-Lab](https://github.com/Kome-Lab)
+##### ©2023 [RIBLab](https://github.com/RIB-Lab)
 
 [Released under the MIT license](
-https://github.com/Kome-Lab/wiki.kome-lab.net/blob/main/LICENSE.md)
+https://github.com/RIB-Lab/wiki.riblab.net/blob/main/LICENSE.md)
