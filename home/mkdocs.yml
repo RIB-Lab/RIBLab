@@ -2,7 +2,8 @@ site_name: RIBLab-Network-Wiki
 theme:
     name: material
     langage: ja
-    custom_dir: 'custom_dir'
+    features:
+    - navigation.footer
     palette:
         - scheme: default
           primary: green
