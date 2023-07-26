@@ -4,6 +4,9 @@ theme:
     langage: ja
     features:
     - navigation.footer
+    copyright: <div style="text-align: center;">
+    &copy; 2023 RIBLab</br>当ホームページの内容について，「私的使用のための複製」や「引用」など著作権法上認められた場合を除き，無断で複製・転用することはできません。
+</div>
     palette:
         - scheme: default
           primary: green
