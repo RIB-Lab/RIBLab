@@ -22,7 +22,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
 nav:
-    - ホーム: index.md
-    - RIBLabとは？: what/index.md
-    - 参加方法: join/index.md
-    - ルール: rules/index.md
+    - ホーム: /
+    - RIBLabとは？: about/
+    - 参加方法: join/
+    - ルール: rules/
