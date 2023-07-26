@@ -6,7 +6,7 @@ theme:
     - navigation.footer
     font:
       text: Zen Maru Gothic
-    logo: assets/81ed1af081d1e480dfe12d1065d4134a.png
+    logo: assets/riblab-icon.png
     palette:
         - scheme: default
           primary: blue
