@@ -1,4 +1,4 @@
-site_name: Studio-Kometubu-Network Wiki
+site_name: RIBLab-Network-Wiki
 theme:
     name: material
     langage: ja
@@ -22,7 +22,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
 nav:
-    - Home: index.md
-    - Studio-Kometubu: 1-Studio-Kometubu/index.md
-    - Kome-Lab: 2-Kome-lab/index.md
-    - Minecraft: 3-Minecraft/index.md
+    - ホーム: index.md
+    - RIBLabとは？: what/index.md
+    - 参加方法: join/index.md
+    - ルール: rules/index.md
