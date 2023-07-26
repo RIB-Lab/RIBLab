@@ -3,9 +3,9 @@ theme:
     name: material
     langage: ja
     features:
-    - navigation.footer
+      - navigation.footer
     font:
-      text: Zen Maru Gothic
+      text: Zen Kaku Gothic New
     logo: assets/riblab-icon.png
     favicon: assets/riblab-icon.png
     palette:
