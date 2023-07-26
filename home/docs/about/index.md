@@ -5,10 +5,8 @@
 
 ここにはRIBLab-Networkに関する情報が掲載されています
 
-## ドキュメント一覧
+## RIBLabサイト一覧
 
-・[ホーム](https://wiki.riblab.net)
-</br>
 
 ・[生活鯖MAP](https://map.riblab.net)
 </br>
