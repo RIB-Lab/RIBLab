@@ -7,10 +7,17 @@
 
 ## ドキュメント一覧
 
-・[ホーム](./)
+・[ホーム](https://wiki.riblab.net)
 </br>
 
-・[ルール](./rules)
+・[生活鯖MAP](https://map.riblab.net)
 </br>
 
-・[参加方法](./join)
+・[ステータス](https://status.riblab.net)
+</br>
+
+・[BANリスト](https://banlist.riblab.net)
+</br>
+
+・[GitHub](https://github.com/RIB-Lab)
+
