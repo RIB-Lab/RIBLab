@@ -19,6 +19,12 @@ theme:
           toggle:
               icon: material/toggle-switch
               name: ライトモードに切り替えます。
+plugins:
+  - search:
+      lang:
+        - ja
+        - en
+  - awesome-pages
 extra:
   social:
     - icon: fontawesome/solid/house-chimney
