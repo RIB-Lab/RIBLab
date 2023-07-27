@@ -1,8 +1,8 @@
-# wiki.riblab.net
+# www.riblab.net(riblab.net)
 
-## このWikiについて
+## このサイトについて
 
-このwikiはRIBLab-Networkに関する情報が掲載されています。
+RIBLab-Networkに関する情報が掲載されています。
 
 ##### ©2023 [RIBLab](https://github.com/RIB-Lab)
 
