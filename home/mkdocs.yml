@@ -24,7 +24,7 @@ plugins:
       lang:
         - ja
         - en
-  - awesome-pages
+  
 extra:
   social:
     - icon: fontawesome/solid/house-chimney
