@@ -19,6 +19,20 @@ theme:
           toggle:
               icon: material/toggle-switch
               name: ライトモードに切り替えます。
+extra:
+  social:
+    - icon: fontawesome/solid/house-chimney
+      link: https://www.riblab.net
+      name: RIBLab Webサイト
+    - icon: fontawesome/brands/discord
+      link: https://www.riblab.net/discord
+      name: RIBLab Discord
+    - icon: fontawesome/brands/github
+      link: https://github.com/RIB-Lab
+      name: RIBLab GitHub
+  generator: false
+
+copyright: '© 2023 RIBLab <br>当ホームページの内容について，「私的使用のための複製」や「引用」など著作権法上認められた場合を除き，無断で複製・転用することはできません。'
 markdown_extensions:
     # アラート修飾の設定
     - admonition
