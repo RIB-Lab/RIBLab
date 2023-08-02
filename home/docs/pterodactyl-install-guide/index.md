@@ -120,6 +120,7 @@ Password: 難しめのパスワード**(8文字以上，大文字，小文字，
 ### キューワーカー(常に起動するやつ)の作成
 ``nano /etc/systemd/system/pteroq.service``
 <br>
+
 ```# Pterodactyl Queue Worker File
 # ----------------------------------
 
@@ -141,6 +142,7 @@ RestartSec=5s
 [Install]
 WantedBy=multi-user.target
 ```
+
 Ctrl+Sで保存，Ctrl+Xで閉じて，下記のコマンドを実行
 <br>
 ``sudo systemctl enable --now redis-server``
