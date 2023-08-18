@@ -1,20 +1,40 @@
 # RIBLabとは？
-RIBLabは7月にできたばかりの比較的新しいサーバーです。
-RIBLabマイクラ鯖では，HUB鯖，生活鯖，単発鯖などがあります。主に接続しているのは，生活鯖となっています。
-生活鯖では数か月毎にテーマを変更したりし，飽きないサーバーを作ってまいります。応援よろしくお願い致します！
 
+RIBLabは、サーバー管理に自信がある人達が集まってできたコミュニティです。
+2023年6月にできたばかりの比較的新しいサーバーとなっています！
 
-# RIBLabサイト一覧
+鯖管理に自信がある人達が集まってできたコミュニティ!
 
+㊗️Discordサーバー人数100人突破！！🎉
+これからもどんどん成長していきます✨
 
-・[生活鯖MAP](https://map.riblab.net)
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+</br>
+近日、新たな生活サーバー(TradeCraft)を準備中！
+</br>
+TradeCraftサーバーでは経済を
+</br>
+中心とした生活を楽しむことが出来ます！
+</br>
+お楽しみに✨
+</br>
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+
+## RIBLabサイト一覧
+
+・[ホームページ](https://www.riblab.net/)
 </br>
 
-・[ステータス](https://status.riblab.net)
+・[経済鯖Wiki(試験運用版)](https://www.riblab.net/trade)
 </br>
 
-・[BANリスト](https://banlist.riblab.net)
+・[Discord](https://discord.gg/YtfYSYawMY/)
+</br>
+
+・[ものくらふと](https://monocraft.net/servers/x0tzEX5OyALMFTleoRhy/)
+</br>
+
+・[JMS](https://minecraft.jp/servers/play.riblab.net/)
 </br>
 
 ・[GitHub](https://github.com/RIB-Lab)
-
