@@ -9,16 +9,21 @@ theme:
     logo: assets/riblab-icon.png
     favicon: assets/riblab-icon.png
     palette:
-        - scheme: default
-          primary: blue
-          toggle:
-              icon: material/toggle-switch-off-outline
-              name: ダークモードに切り替えます。
-        - scheme: slate
-          primary: blue
-          toggle:
-              icon: material/toggle-switch
-              name: ライトモードに切り替えます。
+    - media: "(prefers-color-scheme: light)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: システム設定のテーマに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: ライトモードに切り替え
+    - media: "(prefers-color-scheme: auto)"
+      scheme: default
+      toggle:
+        icon: material/theme-light-dark
+        name: ダークモードに切り替え
 plugins:
   - search:
       lang:
@@ -47,6 +52,7 @@ markdown_extensions:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
+  - javascripts/mode-toggle.js
 nav:
     - ホーム: /
     - RIBLabとは？: about/
