@@ -9,16 +9,21 @@ theme:
     logo: assets/riblab-icon.png
     favicon: assets/riblab-icon.png
     palette:
-        - scheme: default
-          primary: blue
-          toggle:
-              icon: material/toggle-switch-off-outline
-              name: ダークモードに切り替えます。
-        - scheme: slate
-          primary: blue
-          toggle:
-              icon: material/toggle-switch
-              name: ライトモードに切り替えます。
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: システム設定のテーマに切り替え
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: ライトモードに切り替え
+    - media: "(prefers-color-scheme: auto)"
+      scheme: auto
+      toggle:
+        icon: material/theme-light-dark
+        name: ダークモードに切り替え
 plugins:
   - search:
       lang:
@@ -38,7 +43,7 @@ extra:
       name: RIBLab GitHub
   generator: false
 
-copyright: '© 2023 RIBLab <br>当ホームページの内容について，「私的使用のための複製」や「引用」など著作権法上認められた場合を除き，無断で複製・転用することはできません。'
+copyright: '© 2023 RIBLab <br>当ホームページの内容について，「私的使用のための複製」や「引用」など著作権法上認められた場合を除き，無断で複製・転用することはできません。<br>また、このリポジトリをKamesutaに関連する全てのプロジェクトで使用をすることを一切禁止します。'
 markdown_extensions:
     # アラート修飾の設定
     - admonition
@@ -47,11 +52,12 @@ markdown_extensions:
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
+  - javascripts/mode-toggle.js
 nav:
     - ホーム: /
     - RIBLabとは？: about/
     - ルール: rules/
     - 参加方法: join/
+    - 経済鯖wiki(試験運用中): trade/
     - 運営体制: team/
     - ヘルプ: help/
-    - 経済鯖wiki: trade/
