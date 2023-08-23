@@ -10,7 +10,7 @@ theme:
     favicon: assets/riblab-icon.png
     palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: slate
+      scheme: default
       toggle:
         icon: material/weather-sunny
         name: システム設定のテーマに切り替え
