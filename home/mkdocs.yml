@@ -15,7 +15,7 @@ theme:
         icon: material/weather-sunny
         name: システム設定のテーマに切り替え
     - media: "(prefers-color-scheme: dark)"
-      scheme: default
+      scheme: slate
       toggle:
         icon: material/weather-night
         name: ライトモードに切り替え
