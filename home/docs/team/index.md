@@ -4,7 +4,7 @@
 
 MCID: `MuGuKuN`
 <br>
-**役職:** 鯖管理
+**役職:** Infra
 
 ## <img alt="" src="https://minotar.net/helm/quarri6343/38" style="vertical-align: top;"> くぁーりぃ
 
