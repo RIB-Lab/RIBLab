@@ -47,6 +47,8 @@ copyright: '© 2023 RIBLab <br>当ホームページの内容について，「�
 markdown_extensions:
     # アラート修飾の設定
     - admonition
+    # 折り畳みブロックの設定
+    - pymdownx.details
     # スーパーフェンス機能の設定
     - pymdownx.superfences
 extra_javascript:
