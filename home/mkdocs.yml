@@ -49,8 +49,14 @@ markdown_extensions:
     - admonition
     # 折り畳みブロックの設定
     - pymdownx.details
+    # チェックボックスの設定
+    - pymdownx.tasklist:
+        custom_checkbox: true
+        clickable_checkbox: true
     # スーパーフェンス機能の設定
     - pymdownx.superfences
+    # 表の設定
+    - tables
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
