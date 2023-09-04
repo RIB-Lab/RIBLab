@@ -25,6 +25,7 @@ theme:
         icon: material/theme-light-dark
         name: ダークモードに切り替え
 plugins:
+  - blog
   - search:
       lang:
         - ja
@@ -62,10 +63,12 @@ extra_javascript:
   - javascripts/tables.js
   - javascripts/mode-toggle.js
 nav:
-    - ホーム: /
-    - RIBLabとは？: about/
-    - ルール: rules/
-    - 参加方法: join/
-    - 経済鯖wiki(試験運用中): trade/
-    - 運営体制: team/
-    - ヘルプ: help/
+    - ホーム: index.md
+    - RIBLabとは？: about\index.md
+    - ルール: rules\index.md
+    - 参加方法: join\index.md
+    - 経済鯖wiki(試験運用中): trade\index.md
+    - 運営体制: team\index.md
+    - ヘルプ: help\index.md
+    - Blog: 
+      - blog/index.md 
