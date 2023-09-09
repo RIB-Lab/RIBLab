@@ -25,6 +25,7 @@ theme:
         icon: material/theme-light-dark
         name: ダークモードに切り替え
 plugins:
+  - blog
   - search:
       lang:
         - ja
@@ -43,7 +44,8 @@ extra:
       name: RIBLab GitHub
   generator: false
 
-copyright: '© 2023 RIBLab <br>当ホームページの内容について，「私的使用のための複製」や「引用」など著作権法上認められた場合を除き，無断で複製・転用することはできません。<br>また、このリポジトリをKamesutaに関連する全てのプロジェクトで使用をすることを一切禁止します。'
+copyright: '© 2023 RIBLab'
+
 markdown_extensions:
     # アラート修飾の設定
     - admonition
@@ -57,15 +59,19 @@ markdown_extensions:
     - pymdownx.superfences
     # 表の設定
     - tables
+    # ハイパーリンクの設定
+    - pymdownx.magiclink
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
   - javascripts/mode-toggle.js
 nav:
-    - ホーム: /
-    - RIBLabとは？: about/
-    - ルール: rules/
-    - 参加方法: join/
-    - 経済鯖wiki(試験運用中): trade/
-    - 運営体制: team/
-    - ヘルプ: help/
+    - ホーム: index.md
+    - RIBLabとは？: about\index.md
+    - ルール: rules\index.md
+    - 参加方法: join\index.md
+    - 経済鯖wiki(試験運用中): trade\index.md
+    - 運営体制: team\index.md
+    - ヘルプ: help\index.md
+    - Blog: 
+      - blog/index.md

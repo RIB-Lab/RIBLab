@@ -9,16 +9,19 @@
 
 ## 各種URL
 
-・[RIBLabとは？](./about)
+・[RIBLabとは？](about/index.md)
 </br>
 
-・[ルール](./rules)
+・[ルール](rules/index.md)
 </br>
 
-・[参加方法](./join)
+・[参加方法](join/index.md)
 </br>
 
-・[経済鯖Wiki(試験運用中)](./trade)
+・[経済鯖Wiki(試験運用中)](trade/index.md)
 </br>
 
-・[運営体制](./team)
+・[運営体制](team/index.md)
+</br>
+
+・[ヘルプ](help/index.md)
