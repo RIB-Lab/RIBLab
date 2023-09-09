@@ -44,7 +44,8 @@ extra:
       name: RIBLab GitHub
   generator: false
 
-copyright: '© 2023 RIBLab
+copyright: '© 2023 RIBLab'
+
 markdown_extensions:
     # アラート修飾の設定
     - admonition
@@ -71,4 +72,4 @@ nav:
     - 運営体制: team\index.md
     - ヘルプ: help\index.md
     - Blog: 
-      - blog/index.md 
+      - blog/index.md
