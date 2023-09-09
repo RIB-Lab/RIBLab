@@ -44,7 +44,7 @@ extra:
       name: RIBLab GitHub
   generator: false
 
-copyright: '© 2023 RIBLab <br>当ホームページの内容について，「私的使用のための複製」や「引用」など著作権法上認められた場合を除き，無断で複製・転用することはできません。<br>また、このリポジトリをKamesutaに関連する全てのプロジェクトで使用をすることを一切禁止します。'
+copyright: '© 2023 RIBLab
 markdown_extensions:
     # アラート修飾の設定
     - admonition
