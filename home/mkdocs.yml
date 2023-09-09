@@ -59,6 +59,8 @@ markdown_extensions:
     - pymdownx.superfences
     # 表の設定
     - tables
+    # ハイパーリンクの設定
+    - pymdownx.magiclink
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js

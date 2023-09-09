@@ -17,7 +17,10 @@ authors:
 
 # MythicCrucibleについて
 
-皆さんは「[MythicMobs](https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/)」を使ってモブを作ったことがありますか？  
+皆さんは「MythicMobs」を使ってモブを作ったことがありますか？  
+
+https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/
+
 MythicMobsはとても有名な、すごくカスタマイズされたモブやアイテムを作ることができるプラグインです。  
 マイクラマルチをやっていると、時折変なAIを持った敵を見かけますが、あれもこれもMythicMobsで作られています（たぶん）。  
 しかも、あれら何十種類もの性質は全てプログラムではなくyamlだけで定義することができます。  
@@ -36,7 +39,11 @@ MythicMobsとMythicCrucbieを両方買うと結構な値段します。
 
 # 最初の課題
 
-アイテムクラスをyamlにする場合、そのインスタンスからプロパティを読み取って保存しなくてはいけません。  
+アイテムのプログラムの仕方はここでは扱いません。  
+yamlでアイテムが書けるというのがMythicシリーズの特徴で、それを再現するのが今回の目標です。
+<br>
+<br>
+アイテムクラスをyamlで表現する場合、まずそのインスタンスからプロパティを読み取って保存する方法を決めなくてはいけません。  
 私がこれまで書いていたコードでは、アイテムをベースクラスとして実装し、ツールや武器などをカテゴリ別に分けて子クラスとして実装していました。  
 具体的には以下のような感じです。  
 
@@ -135,7 +142,7 @@ MythicMobsとMythicCrucbieを両方買うと結構な値段します。
     /**
     * アイテムに取り付けることのできるパーツ。modifierと併用することでアイテムに様々な性質を付与できる
     *
-    * @param <T>
+    * @param <T> パーツの型
     */
     public interface IItemMod<T> {
         /**
@@ -154,9 +161,24 @@ MythicMobsとMythicCrucbieを両方買うと結構な値段します。
 
 ![image](../../cdn/blog/itemclassmap2.png)
 
+<br>
+
+```
+    /**
+     * アイテムのmodをシリアライズしてマップに書きこむ
+     */
+    private void saveItemMods(ITCItem item, Map<String, Object> defaultModsMap) {
+        for (IItemMod<?> defaultMod : item.getDefaultMods()) {
+            String key = ShortHandModNames.getShortHandNameFromClass((Class<? extends IItemMod<?>>) defaultMod.getClass());
+            String value = gson.toJson(defaultMod.getParam());
+            defaultModsMap.put(key, value);
+        }
+    }
+```
+
 # 第二の課題
 
-さて、さっそく外部のyamlライブラリを使ってこんな感じのアイテムクラスをロードしてみましょう。  
+さて、保存ができたので、さっそく外部のyamlライブラリを使ってこんな感じのアイテムデータをロードしてみましょう。  
 
 ```
     iron_axe:
@@ -224,33 +246,18 @@ snakeyamlにはcomposeという、yamlファイルをマッピングノード(�
 ```
 
 コードは全てRIBLaBのGitHubで公開しているので、興味がある方は調べてみて下さい。  
+<br>
+<br>
 また、この例ではアイテムの変数情報を保存することだけに徹しており、アイテムを右クリックしたらどのような挙動が起きるかなどのアクションスクリプトの読み書きについて言及していません。  
 これは単純に現在私がこのコードを用いているプロジェクトがそこまで進んでいないからです。  
 いつかそれについても記事を書くかもしれません。  
-<br>
-<br>
-アイテムをコンフィグに書き出すコードも自作しました。  
-一人で開発しているので現段階でインゲームエディタなどは不要なのですが、これまでハードコードされていたアイテムをコンフィグに書き出すときに利用しました。  
-
-```
-    /**
-     * アイテムのmodをシリアライズしてマップに書きこむ
-     */
-    private void saveItemMods(ITCItem item, Map<String, Object> defaultModsMap) {
-        for (IItemMod<?> defaultMod : item.getDefaultMods()) {
-            String key = ShortHandModNames.getShortHandNameFromClass((Class<? extends IItemMod<?>>) defaultMod.getClass());
-            String value = gson.toJson(defaultMod.getParam());
-            defaultModsMap.put(key, value);
-        }
-    }
-```
 
 # おわりに
 
 最初に書きましたが、以上のコードが難しいと感じた方はMythicCrucibleを購入することをお勧めします。  
 MythicCrucibleのパフォーマンスやコードの綺麗さは置いておいて、こんなことで苦しむかよりはゲームの内容やバランス調整に時間を割いた方がいいと思っています。  
   
-気まぐれで書いたので次回があるかどうかは分かりませんが、もしあればインスタンスダンジョン生成について書くかもしれません。  
+気まぐれで書いたので次回があるかどうかは分かりませんが、もしあればまた今回のような今まで誰も触れていなさそうな内容について書くかもしれません。  
   
 
 それではまた！  
