@@ -25,7 +25,8 @@ theme:
         icon: material/theme-light-dark
         name: ダークモードに切り替え
 plugins:
-  - blog
+  - blog:
+      post_url_format: "{date}/{file}"
   - search:
       lang:
         - ja
